@@ -9,10 +9,9 @@ const db = new Sequelize({
 
 const COL_ID_DEF = {
   type: Sequelize.DataTypes.INTEGER,
-  autoincrement: true,
+  autoIncrement: true,
   primaryKey: true,
 };
-
 const COL_USERNAME_DEF = {
   type: Sequelize.DataTypes.STRING(30),
   unique: true,
